@@ -1,12 +1,9 @@
 {
   "name": "blackboard-env",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/types.d.ts",
-  "bin": {
-    "blackboard-env": "dist/cli.js"
-  },
   "scripts": {
     "test": "jest",
     "test:ci": "jest --coverage --coverageReporters=text-lcov | coveralls",
