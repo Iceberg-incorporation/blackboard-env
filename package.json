@@ -1,11 +1,10 @@
 {
   "name": "blackboard-env",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
-  "types": "dist/types.d.ts",
   "bin": {
-    "react-env": "dist/cli.js"
+    "react-env": "lib/cli.js"
   },
   "directories": {
     "lib": "lib"
