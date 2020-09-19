@@ -1,13 +1,10 @@
 {
   "name": "blackboard-env",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "bin": {
-    "blackboard-env": "lib/cli.js"
-  },
-  "directories": {
-    "lib": "lib"
+    "blackboard-env": "dist/cli-index.js"
   },
   "scripts": {
     "test": "jest",
