@@ -1,14 +1,14 @@
 {
   "name": "blackboard-env",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/index.js",
-  "types": "dist/types.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/types.d.ts",
   "bin": {
-    "blackboard-env": "dist/cli.js"
+    "blackboard-env": "lib/cli.js"
   },
   "scripts": {
     "a": "NODE_ENV=development node test.js",
