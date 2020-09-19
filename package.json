@@ -1,6 +1,6 @@
 {
   "name": "blackboard-env",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -11,7 +11,6 @@
     "blackboard-env": "lib/cli.js"
   },
   "scripts": {
-    "a": "NODE_ENV=development node test.js",
     "test": "jest",
     "test:ci": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "build": "rollup -c",
