@@ -1,4 +1,4 @@
-import commonjs from "rollup-plugin-commonjs";
+// import commonjs from "rollup-plugin-commonjs";
 
 export default [
   {
@@ -23,8 +23,8 @@ export default [
       file: "dist/index.js",
       format: "cjs"
     },
-    plugins: [
-      commonjs()
-    ]
+    // plugins: [
+    //   commonjs()
+    // ]
   }
 ];

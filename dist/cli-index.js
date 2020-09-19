@@ -6,17 +6,6 @@ const argv = require("minimist")(process.argv.slice(2));
 
 const NODE_ENV = process.env.NODE_ENV || "development";
 
-function writeBrowserEnvironment(env) {
-  const basePath = fs.realpathSync(process.cwd());
-  // const destPath = argv.dest ? `${argv.dest}/` : "public/";
-  const populate = `
-  const window = {};
-  window._env = ${JSON.stringify(env)};
-  module.exports = window;
-  `;
-  fs.writeFileSync(`${basePath}/env.${NODE_ENV}.js`, populate);
-}
-
 function getEnvironment() {
   return Object.keys(process.env)
     .filter(key => /^/i.test(key))
